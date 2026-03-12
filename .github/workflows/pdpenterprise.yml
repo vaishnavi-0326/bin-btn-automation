@@ -1,0 +1,157 @@
+name: PDP Enterprise Scanner
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+
+# ------------------------------------------------
+# 1️⃣ Build batches from JSON
+# ------------------------------------------------
+
+  build-batches:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.generate.outputs.matrix }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Generate batches
+        id: generate
+        run: |
+
+          echo "Reading JSON..."
+
+          jq '[.data[] | {brand:.brand, code:.assortmentCode}]' productPageUrls.json > brands.json
+
+          echo "Total brands:"
+          jq length brands.json
+
+          BATCH_SIZE=15
+
+          MATRIX=$(jq -c \
+          --argjson size $BATCH_SIZE '
+          [range(0; length; $size) as $i
+            | {batch: .[$i:$i+$size]}]
+          ' brands.json)
+
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+
+
+# ------------------------------------------------
+# 2️⃣ Run PDP checks in parallel batches
+# ------------------------------------------------
+
+  run-batch:
+    needs: build-batches
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        include: ${{ fromJson(needs.build-batches.outputs.matrix) }}
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Execute batch
+        run: |
+
+          mkdir results
+
+          echo '${{ toJson(matrix.batch) }}' > batch.json
+
+          node <<'NODE'
+
+          const fs = require("fs")
+          const { execSync } = require("child_process")
+
+          const batch = JSON.parse(fs.readFileSync("batch.json","utf8"))
+
+          console.log("Batch size:", batch.length)
+
+          for (const item of batch) {
+
+            console.log("Checking brand:", item.brand, item.code)
+
+            execSync(
+              `node checkPdpPages.js "${item.brand}" "${item.code}"`,
+              { stdio: "inherit" }
+            )
+          }
+
+          NODE
+
+          mv *.json results/ || true
+
+      - name: Upload batch artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-${{ strategy.job-index }}
+          path: results/
+          if-no-files-found: ignore
+
+
+# ------------------------------------------------
+# 3️⃣ Merge results
+# ------------------------------------------------
+
+  merge-results:
+    needs: run-batch
+    if: always()
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Merge JSON files
+        run: |
+
+          mkdir final
+
+          find artifacts -name "*.json" -exec cp {} final/ \;
+
+          echo "Total result files:"
+          ls final | wc -l
+
+      - name: Commit results
+        run: |
+
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          mkdir -p results
+          cp final/*.json results/ || true
+
+          git add results/
+
+          if git diff --cached --quiet
+          then
+            echo "No new changes"
+          else
+            git commit -m "PDP scan results"
+            git push
+          fi
