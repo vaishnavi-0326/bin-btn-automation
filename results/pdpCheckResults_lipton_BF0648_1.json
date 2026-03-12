@@ -1,0 +1,340 @@
+{
+  "generatedAt": "2026-03-12T16:35:31.456Z",
+  "brand": "lipton",
+  "assortmentCode": "BF0648",
+  "feedUrl": "https://www.liptonicetea.nl/home.productfeed.json",
+  "totalUrlsChecked": 54,
+  "problematicPagesFound": 0,
+  "successfulPages": [
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-200ml.html/08711327497191",
+      "gtin": "08711327497191",
+      "checkedAt": "2026-03-12T16:35:23.501Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-200ml.html/08711327497221",
+      "gtin": "08711327497221",
+      "checkedAt": "2026-03-12T16:35:30.044Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-1500ml.html/08711327507487",
+      "gtin": "08711327507487",
+      "checkedAt": "2026-03-12T16:35:23.535Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-lemon-1500ml.html/08711327507500",
+      "gtin": "08711327507500",
+      "checkedAt": "2026-03-12T16:35:31.182Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-1l.html/08711327507524",
+      "gtin": "08711327507524",
+      "checkedAt": "2026-03-12T16:35:23.540Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-500-ml.html/08711327508293",
+      "gtin": "08711327508293",
+      "checkedAt": "2026-03-12T16:35:23.502Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-1l.html/08711327508439",
+      "gtin": "08711327508439",
+      "checkedAt": "2026-03-12T16:35:23.643Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-1100ml.html/08711327508453",
+      "gtin": "08711327508453",
+      "checkedAt": "2026-03-12T16:35:23.468Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-lemon-500ml.html/08711327519978",
+      "gtin": "08711327519978",
+      "checkedAt": "2026-03-12T16:35:30.444Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-lemon-1500ml.html/08711327547964",
+      "gtin": "08711327547964",
+      "checkedAt": "2026-03-12T16:35:23.501Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-1500ml.html/08711327547988",
+      "gtin": "08711327547988",
+      "checkedAt": "2026-03-12T16:35:23.467Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-peach-zero-500-ml.html/08711327550919",
+      "gtin": "08711327550919",
+      "checkedAt": "2026-03-12T16:35:31.455Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-zero-1500ml.html/08711327550926",
+      "gtin": "08711327550926",
+      "checkedAt": "2026-03-12T16:35:23.503Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-zero-200-ml.html/08711327554108",
+      "gtin": "08711327554108",
+      "checkedAt": "2026-03-12T16:35:23.467Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-peach-330ml.html/08711327571495",
+      "gtin": "08711327571495",
+      "checkedAt": "2026-03-12T16:35:23.524Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-150ml.html/08711327571570",
+      "gtin": "08711327571570",
+      "checkedAt": "2026-03-12T16:35:23.504Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-zero-330-ml.html/08711327571587",
+      "gtin": "08711327571587",
+      "checkedAt": "2026-03-12T16:35:23.503Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-zero-250-ml.html/08711327571600",
+      "gtin": "08711327571600",
+      "checkedAt": "2026-03-12T16:35:23.468Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-330ml.html/08711327571624",
+      "gtin": "08711327571624",
+      "checkedAt": "2026-03-12T16:35:23.725Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-250ml.html/08711327571662",
+      "gtin": "08711327571662",
+      "checkedAt": "2026-03-12T16:35:23.543Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-8-x-150ml.html/08711327571679",
+      "gtin": "08711327571679",
+      "checkedAt": "2026-03-12T16:35:23.505Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-lemon-500ml.html/08711327579040",
+      "gtin": "08711327579040",
+      "checkedAt": "2026-03-12T16:35:30.954Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-peach-1500ml.html/08711327579064",
+      "gtin": "08711327579064",
+      "checkedAt": "2026-03-12T16:35:30.388Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-strawberry-500ml.html/08711327624177",
+      "gtin": "08711327624177",
+      "checkedAt": "2026-03-12T16:35:23.467Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-green-citrus-500ml.html/08711327670235",
+      "gtin": "08711327670235",
+      "checkedAt": "2026-03-12T16:35:23.560Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-green-citrus-1500ml.html/08711327670273",
+      "gtin": "08711327670273",
+      "checkedAt": "2026-03-12T16:35:23.550Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-green-citrus-250ml.html/08711327670624",
+      "gtin": "08711327670624",
+      "checkedAt": "2026-03-12T16:35:30.574Z"
+    }
+  ],
+  "errors": 27,
+  "duration": "8.34s",
+  "speedMetrics": "6.47 URLs/second",
+  "problematicPages": [],
+  "errorPages": [
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-200ml.html/08711200178605",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.346Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-500ml.html/08711327507548",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-green-500ml.html/08711327507548 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.340Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-1100ml.html/08711327507586",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.353Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-1500ml.html/08711327508491",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.667Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-zero-1500ml.html/08711327547841",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.351Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-peach-zero-1500ml.html/08711327547865",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.352Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-zero-500ml.html/08711327549869",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.351Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-lemon-330ml.html/08711327571501",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-lemon-330ml.html/08711327571501 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.341Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-peach-250ml.html/08711327571518",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-peach-250ml.html/08711327571518 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.341Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-peach-zero-sugar-250ml.html/08711327571525",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-peach-zero-sugar-250ml.html/08711327571525 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.274Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-330ml.html/08711327571532",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-green-330ml.html/08711327571532 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.341Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-lemon-250ml.html/08711327571556",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.548Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-zero-330ml.html/08711327571648",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.427Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-zero-250ml.html/08711327571655",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.345Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-250ml.html/08711327573819",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.524Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-peach-200ml.html/08711327579019",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-peach-200ml.html/08711327579019 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.341Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-lemon-1500ml.html/08711327579026",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-lemon-1500ml.html/08711327579026 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.341Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-peach-1500ml.html/08711327579033",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-peach-1500ml.html/08711327579033 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.341Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-peach-500ml.html/08711327579057",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.371Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-lemon-1500ml.html/08711327583917",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.568Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-zero-500ml.html/08711327586079",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-zero-500ml.html/08711327586079 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.341Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-sparkling-zero-1500ml.html/08711327586086",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.378Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-mango-zero-500-ml.html/08711327586697",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-green-mango-zero-500-ml.html/08711327586697 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.342Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-mango-zero-1500ml.html/08711327586703",
+      "error": "request to https://www.liptonicetea.nl/p/lipton-ice-tea-green-mango-zero-1500ml.html/08711327586703 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:35:31.341Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-strawberry-1500ml.html/08711327623972",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.433Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-strawberry-1500ml.html/08711327624511",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.667Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.liptonicetea.nl/p/lipton-ice-tea-green-mango-zero-1500ml.html/08711327632707",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:35:23.428Z"
+    }
+  ]
+}

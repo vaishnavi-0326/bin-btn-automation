@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T11:14:50.994Z",
+  "generatedAt": "2026-03-12T16:37:02.418Z",
   "brand": "walls",
   "assortmentCode": "BF0387",
   "feedUrl": "https://www.heladosholanda.com.mx/home.productfeed.json",
@@ -10,474 +10,475 @@
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-capuccino-1l.html/07501130902170",
       "gtin": "07501130902170",
-      "checkedAt": "2026-03-12T11:14:42.288Z"
+      "checkedAt": "2026-03-12T16:36:55.430Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-napolitano-1-3l.html/07501130935000",
       "gtin": "07501130935000",
-      "checkedAt": "2026-03-12T11:14:42.278Z"
+      "checkedAt": "2026-03-12T16:36:56.081Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-chocolate-1-3l.html/07501130935024",
       "gtin": "07501130935024",
-      "checkedAt": "2026-03-12T11:14:42.397Z"
+      "checkedAt": "2026-03-12T16:36:55.784Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-vainilla-1-3l.html/07501130935031",
       "gtin": "07501130935031",
-      "checkedAt": "2026-03-12T11:14:42.511Z"
+      "checkedAt": "2026-03-12T16:36:55.015Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/holanda-nieve-de-limon-1-3l.html/07501130935048",
       "gtin": "07501130935048",
-      "checkedAt": "2026-03-12T11:14:42.398Z"
+      "checkedAt": "2026-03-12T16:36:55.454Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-oreo-vainilla-1-3l.html/07506306412682",
       "gtin": "07506306412682",
-      "checkedAt": "2026-03-12T11:14:42.437Z"
+      "checkedAt": "2026-03-12T16:36:55.944Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-mordisko-1-3l.html/07506306413610",
       "gtin": "07506306413610",
-      "checkedAt": "2026-03-12T11:14:42.191Z"
+      "checkedAt": "2026-03-12T16:36:55.252Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/oreo-sandwich-4-piezas.html/07506306416024",
       "gtin": "07506306416024",
-      "checkedAt": "2026-03-12T11:14:42.379Z"
+      "checkedAt": "2026-03-12T16:37:00.746Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-snickers-473ml.html/07506306416093",
       "gtin": "07506306416093",
-      "checkedAt": "2026-03-12T11:14:42.278Z"
+      "checkedAt": "2026-03-12T16:36:55.791Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/holanda-helado-chocochips-1-3l.html/07506306416451",
       "gtin": "07506306416451",
-      "checkedAt": "2026-03-12T11:14:50.993Z"
+      "checkedAt": "2026-03-12T16:36:55.432Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/oreo-sandwich-10-piezas.html/07506306416468",
       "gtin": "07506306416468",
-      "checkedAt": "2026-03-12T11:14:42.397Z"
+      "checkedAt": "2026-03-12T16:36:55.095Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/cornetto-m&ms.html/07506306416505",
       "gtin": "07506306416505",
-      "checkedAt": "2026-03-12T11:14:42.346Z"
+      "checkedAt": "2026-03-12T16:36:56.059Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/holanda-helado-m&ms-1-3lt.html/07506306416581",
       "gtin": "07506306416581",
-      "checkedAt": "2026-03-12T11:14:42.279Z"
+      "checkedAt": "2026-03-12T16:36:56.064Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/holanda-helado-vegano-sabor-chocolate-con-avellanas-caramelizadas.html/07506306416994",
       "gtin": "07506306416994",
-      "checkedAt": "2026-03-12T11:14:42.279Z"
+      "checkedAt": "2026-03-12T16:36:55.545Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/twister-paleta.html/07506306417038",
       "gtin": "07506306417038",
-      "checkedAt": "2026-03-12T11:14:42.367Z"
+      "checkedAt": "2026-03-12T16:36:55.606Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/holanda-micha-conejo-turin.html/07506306417106",
       "gtin": "07506306417106",
-      "checkedAt": "2026-03-12T11:14:42.304Z"
+      "checkedAt": "2026-03-12T16:36:55.934Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/conejos-turin-paleta.html/07506306417236",
       "gtin": "07506306417236",
-      "checkedAt": "2026-03-12T11:14:42.278Z"
+      "checkedAt": "2026-03-12T16:36:55.661Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/chemisse-fresa-coco.html/07506306417359",
       "gtin": "07506306417359",
-      "checkedAt": "2026-03-12T11:14:42.287Z"
+      "checkedAt": "2026-03-12T16:36:56.034Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/cornetto-spotify.html/07506306417472",
       "gtin": "07506306417472",
-      "checkedAt": "2026-03-12T11:14:42.191Z"
+      "checkedAt": "2026-03-12T16:36:55.315Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/mordisko-chocoavellana.html/07506306417601",
       "gtin": "07506306417601",
-      "checkedAt": "2026-03-12T11:14:42.190Z"
+      "checkedAt": "2026-03-12T16:36:55.099Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/viennetta-cappuccino.html/08711327446045",
       "gtin": "08711327446045",
-      "checkedAt": "2026-03-12T11:14:42.287Z"
+      "checkedAt": "2026-03-12T16:36:55.828Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/chemisse-pina-coco.html/07501130900411",
       "gtin": "07501130900411",
-      "checkedAt": "2026-03-12T11:14:42.456Z"
+      "checkedAt": "2026-03-12T16:36:56.025Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/mordisko-clasico.html/07501130901050",
       "gtin": "07501130901050",
-      "checkedAt": "2026-03-12T11:14:42.434Z"
+      "checkedAt": "2026-03-12T16:36:55.655Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/mordisko-clasico-vainilla-4-piezas.html/07501130901081",
       "gtin": "07501130901081",
-      "checkedAt": "2026-03-12T11:14:42.190Z"
+      "checkedAt": "2026-03-12T16:36:56.161Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-chocolate-1l.html/07501130902095",
       "gtin": "07501130902095",
-      "checkedAt": "2026-03-12T11:14:42.473Z"
+      "checkedAt": "2026-03-12T16:36:55.848Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-fresa-1l.html/07501130902118",
       "gtin": "07501130902118",
-      "checkedAt": "2026-03-12T11:14:42.414Z"
+      "checkedAt": "2026-03-12T16:36:55.157Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-nuez-almendras-1l.html/07501130902149",
       "gtin": "07501130902149",
-      "checkedAt": "2026-03-12T11:14:42.247Z"
+      "checkedAt": "2026-03-12T16:37:00.618Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-napolitano-1l.html/07501130902194",
       "gtin": "07501130902194",
-      "checkedAt": "2026-03-12T11:14:42.305Z"
+      "checkedAt": "2026-03-12T16:36:55.314Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-vainilla-1l.html/07501130902309",
       "gtin": "07501130902309",
-      "checkedAt": "2026-03-12T11:14:42.305Z"
-    },
-    {
-      "type": "successful",
-      "url": "https://www.heladosholanda.com.mx/p/helado-holanda-vainilla-3-6l.html/07501130903078",
-      "gtin": "07501130903078",
-      "checkedAt": "2026-03-12T11:14:42.287Z"
+      "checkedAt": "2026-03-12T16:36:55.747Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-napolitano-3-6l.html/07501130903092",
       "gtin": "07501130903092",
-      "checkedAt": "2026-03-12T11:14:42.273Z"
+      "checkedAt": "2026-03-12T16:36:56.103Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-oreo-vainilla-1l.html/07501130903153",
       "gtin": "07501130903153",
-      "checkedAt": "2026-03-12T11:14:42.247Z"
+      "checkedAt": "2026-03-12T16:36:56.115Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-oreo-vainilla-473ml.html/07501130903245",
       "gtin": "07501130903245",
-      "checkedAt": "2026-03-12T11:14:42.247Z"
+      "checkedAt": "2026-03-12T16:36:55.157Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/holanda-nieve-de-limon-1l.html/07501130906406",
       "gtin": "07501130906406",
-      "checkedAt": "2026-03-12T11:14:42.304Z"
+      "checkedAt": "2026-03-12T16:36:55.371Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/solero-limon-citrus-4-piezas.html/07501130922147",
       "gtin": "07501130922147",
-      "checkedAt": "2026-03-12T11:14:49.717Z"
+      "checkedAt": "2026-03-12T16:36:55.788Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-vainilla-1-89l.html/07501130926947",
       "gtin": "07501130926947",
-      "checkedAt": "2026-03-12T11:14:42.278Z"
+      "checkedAt": "2026-03-12T16:36:55.665Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/cornetto-chocollage.html/07501130930449",
       "gtin": "07501130930449",
-      "checkedAt": "2026-03-12T11:14:42.139Z"
+      "checkedAt": "2026-03-12T16:36:55.659Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-vainilla-473ml.html/07501130932504",
       "gtin": "07501130932504",
-      "checkedAt": "2026-03-12T11:14:42.247Z"
+      "checkedAt": "2026-03-12T16:36:55.989Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-napolitano-473ml.html/07501130932511",
       "gtin": "07501130932511",
-      "checkedAt": "2026-03-12T11:14:42.302Z"
+      "checkedAt": "2026-03-12T16:36:55.754Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-oreo-vainilla-3-6l.html/07501130933198",
       "gtin": "07501130933198",
-      "checkedAt": "2026-03-12T11:14:42.190Z"
+      "checkedAt": "2026-03-12T16:36:55.807Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/kolorix.html/07501130934058",
       "gtin": "07501130934058",
-      "checkedAt": "2026-03-12T11:14:42.191Z"
+      "checkedAt": "2026-03-12T16:36:55.658Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/chococrem-fresa.html/07501130934973",
       "gtin": "07501130934973",
-      "checkedAt": "2026-03-12T11:14:42.279Z"
+      "checkedAt": "2026-03-12T16:36:55.840Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/choco-crem-chocolate.html/07501130934980",
       "gtin": "07501130934980",
-      "checkedAt": "2026-03-12T11:14:42.724Z"
+      "checkedAt": "2026-03-12T16:36:55.985Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-queso-con-zarzamora-1l.html/07501130935475",
       "gtin": "07501130935475",
-      "checkedAt": "2026-03-12T11:14:42.430Z"
+      "checkedAt": "2026-03-12T16:36:55.371Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-vainilla-mexicana.html/07501130935504",
       "gtin": "07501130935504",
-      "checkedAt": "2026-03-12T11:14:42.273Z"
+      "checkedAt": "2026-03-12T16:36:55.430Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/solero-limon-citrus.html/07501130935512",
       "gtin": "07501130935512",
-      "checkedAt": "2026-03-12T11:14:42.288Z"
+      "checkedAt": "2026-03-12T16:36:55.443Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/solero-paradise-frutos-rojos.html/07501130935536",
       "gtin": "07501130935536",
-      "checkedAt": "2026-03-12T11:14:42.140Z"
+      "checkedAt": "2026-03-12T16:36:55.318Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-napolitano-1-89l.html/07501130936977",
       "gtin": "07501130936977",
-      "checkedAt": "2026-03-12T11:14:42.302Z"
+      "checkedAt": "2026-03-12T16:36:55.706Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/choco-milk-paleta.html/07506306317390",
       "gtin": "07506306317390",
-      "checkedAt": "2026-03-12T11:14:42.278Z"
+      "checkedAt": "2026-03-12T16:37:00.099Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-chips-ahoy-473ml.html/07506306400115",
       "gtin": "07506306400115",
-      "checkedAt": "2026-03-12T11:14:42.287Z"
+      "checkedAt": "2026-03-12T16:36:55.099Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-queso-con-zarzamora-3-6l.html/07506306401105",
       "gtin": "07506306401105",
-      "checkedAt": "2026-03-12T11:14:42.288Z"
+      "checkedAt": "2026-03-12T16:37:00.443Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/cornetto-oreo.html/07506306413009",
       "gtin": "07506306413009",
-      "checkedAt": "2026-03-12T11:14:42.247Z"
+      "checkedAt": "2026-03-12T16:36:56.262Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/magnum-almendras-3-piezas.html/07506306413108",
       "gtin": "07506306413108",
-      "checkedAt": "2026-03-12T11:14:42.397Z"
+      "checkedAt": "2026-03-12T16:36:55.667Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-m&ms-473ml.html/07506306413306",
       "gtin": "07506306413306",
-      "checkedAt": "2026-03-12T11:14:42.273Z"
+      "checkedAt": "2026-03-12T16:36:55.620Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/magnum-almendras.html/07506306413368",
       "gtin": "07506306413368",
-      "checkedAt": "2026-03-12T11:14:42.499Z"
+      "checkedAt": "2026-03-12T16:36:55.317Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/magnum-clasica.html/07506306413375",
       "gtin": "07506306413375",
-      "checkedAt": "2026-03-12T11:14:42.273Z"
+      "checkedAt": "2026-03-12T16:36:55.634Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/mordisko-clasico-vainilla-12-piezas.html/07506306413474",
       "gtin": "07506306413474",
-      "checkedAt": "2026-03-12T11:14:42.279Z"
+      "checkedAt": "2026-03-12T16:36:55.318Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/cornetto-copa-brownie-vainilla.html/07506306414471",
       "gtin": "07506306414471",
-      "checkedAt": "2026-03-12T11:14:42.288Z"
+      "checkedAt": "2026-03-12T16:36:55.315Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/solero-mousse-limon.html/07506306414525",
       "gtin": "07506306414525",
-      "checkedAt": "2026-03-12T11:14:42.140Z"
+      "checkedAt": "2026-03-12T16:36:55.431Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-zero-azucar-chocolate-1l.html/07506306415003",
       "gtin": "07506306415003",
-      "checkedAt": "2026-03-12T11:14:50.577Z"
+      "checkedAt": "2026-03-12T16:36:55.576Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-zero-azucar-napolitano-1l.html/07506306415096",
       "gtin": "07506306415096",
-      "checkedAt": "2026-03-12T11:14:42.279Z"
+      "checkedAt": "2026-03-12T16:36:55.763Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-holanda-oreo-vainilla-1-89l.html/07506306415171",
       "gtin": "07506306415171",
-      "checkedAt": "2026-03-12T11:14:42.191Z"
+      "checkedAt": "2026-03-12T16:36:55.182Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/viennetta-vainilla.html/07506306415454",
       "gtin": "07506306415454",
-      "checkedAt": "2026-03-12T11:14:42.397Z"
+      "checkedAt": "2026-03-12T16:36:56.053Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/cornetto-snickers.html/07506306415843",
       "gtin": "07506306415843",
-      "checkedAt": "2026-03-12T11:14:42.273Z"
+      "checkedAt": "2026-03-12T16:36:55.622Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/oreo-sandwich.html/07506306415973",
       "gtin": "07506306415973",
-      "checkedAt": "2026-03-12T11:14:42.367Z"
+      "checkedAt": "2026-03-12T16:36:55.419Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/mordisko-clasico-vainilla-6-piezas.html/07506306416017",
       "gtin": "07506306416017",
-      "checkedAt": "2026-03-12T11:14:42.380Z"
+      "checkedAt": "2026-03-12T16:36:55.430Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/cornetto-copa-fresas-con-crema.html/07506306416215",
       "gtin": "07506306416215",
-      "checkedAt": "2026-03-12T11:14:42.414Z"
+      "checkedAt": "2026-03-12T16:36:59.847Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/piloncito-fresas-con-crema.html/07506306416314",
       "gtin": "07506306416314",
-      "checkedAt": "2026-03-12T11:14:42.398Z"
+      "checkedAt": "2026-03-12T16:36:55.432Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/piloncito-cajeta.html/07506306416321",
       "gtin": "07506306416321",
-      "checkedAt": "2026-03-12T11:14:42.288Z"
+      "checkedAt": "2026-03-12T16:36:55.735Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-chocolate-oaxaqueno.html/07506306416727",
       "gtin": "07506306416727",
-      "checkedAt": "2026-03-12T11:14:42.397Z"
-    },
-    {
-      "type": "successful",
-      "url": "https://www.heladosholanda.com.mx/p/helado-queso-con-guayaba.html/07506306416734",
-      "gtin": "07506306416734",
-      "checkedAt": "2026-03-12T11:14:42.368Z"
+      "checkedAt": "2026-03-12T16:36:56.111Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/helado-cafe-de-veracruz.html/07506306416741",
       "gtin": "07506306416741",
-      "checkedAt": "2026-03-12T11:14:42.305Z"
+      "checkedAt": "2026-03-12T16:36:55.752Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/piloncito-nieve-de-chocolate.html/07506306417243",
       "gtin": "07506306417243",
-      "checkedAt": "2026-03-12T11:14:42.414Z"
+      "checkedAt": "2026-03-12T16:37:00.489Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/piloncito-nieve-de-galleta.html/07506306417250",
       "gtin": "07506306417250",
-      "checkedAt": "2026-03-12T11:14:42.312Z"
+      "checkedAt": "2026-03-12T16:36:55.132Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/piloncito-nieve-de-fresa.html/07506306417267",
       "gtin": "07506306417267",
-      "checkedAt": "2026-03-12T11:14:42.273Z"
+      "checkedAt": "2026-03-12T16:37:00.555Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/piloncito-nieve-de-lim%C3%B3n.html/07506306417274",
       "gtin": "07506306417274",
-      "checkedAt": "2026-03-12T11:14:42.346Z"
+      "checkedAt": "2026-03-12T16:36:55.341Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/viennetta-chocolate.html/08000920200087",
       "gtin": "08000920200087",
-      "checkedAt": "2026-03-12T11:14:42.304Z"
+      "checkedAt": "2026-03-12T16:36:56.011Z"
     },
     {
       "type": "successful",
       "url": "https://www.heladosholanda.com.mx/p/viennetta-cappuccino-xxl.html/08712100657115",
       "gtin": "08712100657115",
-      "checkedAt": "2026-03-12T11:14:42.287Z"
+      "checkedAt": "2026-03-12T16:36:55.873Z"
     }
   ],
-  "errors": 0,
-  "duration": "9.90s",
-  "speedMetrics": "7.88 URLs/second",
+  "errors": 2,
+  "duration": "8.35s",
+  "speedMetrics": "9.34 URLs/second",
   "problematicPages": [],
-  "errorPages": []
+  "errorPages": [
+    {
+      "type": "error",
+      "url": "https://www.heladosholanda.com.mx/p/helado-holanda-vainilla-3-6l.html/07501130903078",
+      "error": "request to https://www.heladosholanda.com.mx/p/helado-holanda-vainilla-3-6l.html/07501130903078 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:37:02.375Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.heladosholanda.com.mx/p/helado-queso-con-guayaba.html/07506306416734",
+      "error": "request to https://www.heladosholanda.com.mx/p/helado-queso-con-guayaba.html/07506306416734 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:37:02.418Z"
+    }
+  ]
 }

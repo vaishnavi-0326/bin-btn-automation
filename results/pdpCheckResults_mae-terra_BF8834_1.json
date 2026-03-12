@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-03-12T16:36:28.955Z",
+  "brand": "mae-terra",
+  "assortmentCode": "BF8834",
+  "feedUrl": "https://www.maeterra.com.br/home.productfeed.json",
+  "totalUrlsChecked": 27,
+  "problematicPagesFound": 0,
+  "successfulPages": [
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/granola-tradicional-com-castanhas-brasileiras.html/07891150075443",
+      "gtin": "07891150075443",
+      "checkedAt": "2026-03-12T16:36:21.043Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/granola-banana-e-cacau.html/07891150075450",
+      "gtin": "07891150075450",
+      "checkedAt": "2026-03-12T16:36:21.036Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/zooreta-biscoito-cacau-organico.html/07891150081338",
+      "gtin": "07891150081338",
+      "checkedAt": "2026-03-12T16:36:21.029Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/zooreta-biscoito-maizena.html/07891150084643",
+      "gtin": "07891150084643",
+      "checkedAt": "2026-03-12T16:36:21.041Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/granola-tradicional-zero-acucares.html/07891150087606",
+      "gtin": "07891150087606",
+      "checkedAt": "2026-03-12T16:36:21.019Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/pipoca-doce-brigadeiro-zero.html/07891150089112",
+      "gtin": "07891150089112",
+      "checkedAt": "2026-03-12T16:36:21.003Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/choco-cookies-castanhas-brasileiras.html/07891150089167",
+      "gtin": "07891150089167",
+      "checkedAt": "2026-03-12T16:36:21.243Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/choco-biscoito-cacau.html/07891150089198",
+      "gtin": "07891150089198",
+      "checkedAt": "2026-03-12T16:36:21.163Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/zooreta-salgadinho-queijo.html/07891150094857",
+      "gtin": "07891150094857",
+      "checkedAt": "2026-03-12T16:36:21.004Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/tribos-cracker-gergelim.html/07896496917525",
+      "gtin": "07896496917525",
+      "checkedAt": "2026-03-12T16:36:21.165Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/pipoca-doce-cacau.html/07896496917662",
+      "gtin": "07896496917662",
+      "checkedAt": "2026-03-12T16:36:21.166Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/tribos-cacau.html/07896496917709",
+      "gtin": "07896496917709",
+      "checkedAt": "2026-03-12T16:36:21.135Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/tribos-coco.html/07896496917716",
+      "gtin": "07896496917716",
+      "checkedAt": "2026-03-12T16:36:21.016Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/granola-frutas-e-mel-vegano.html/07896496972111",
+      "gtin": "07896496972111",
+      "checkedAt": "2026-03-12T16:36:21.359Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/zooreta-salgadinho-pizza.html/07896496972326",
+      "gtin": "07896496972326",
+      "checkedAt": "2026-03-12T16:36:21.159Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/zooreta-salgadinho-cebola.html/07896496972340",
+      "gtin": "07896496972340",
+      "checkedAt": "2026-03-12T16:36:21.119Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/remix-acai.html/07896496972555",
+      "gtin": "07896496972555",
+      "checkedAt": "2026-03-12T16:36:21.017Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/mini-cookies-banana-e-cacau.html/07896496980888",
+      "gtin": "07896496980888",
+      "checkedAt": "2026-03-12T16:36:21.187Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/mini-cookies-coco-e-castanhas.html/07896496980994",
+      "gtin": "07896496980994",
+      "checkedAt": "2026-03-12T16:36:21.172Z"
+    },
+    {
+      "type": "successful",
+      "url": "https://www.maeterra.com.br/p/granola-cacau.html/07896496995219",
+      "gtin": "07896496995219",
+      "checkedAt": "2026-03-12T16:36:21.074Z"
+    }
+  ],
+  "errors": 7,
+  "duration": "8.38s",
+  "speedMetrics": "3.22 URLs/second",
+  "problematicPages": [],
+  "errorPages": [
+    {
+      "type": "error",
+      "url": "https://www.maeterra.com.br/p/choco-biscoito-maizena.html/07891150089181",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:36:24.798Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.maeterra.com.br/p/granola-castanha-de-caju-amigos-do-bem.html/07891150090798",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:36:24.659Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.maeterra.com.br/p/pipoca-doce-caramelo-com-coco.html/07896496917655",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:36:24.775Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.maeterra.com.br/p/remix-castanhas-brasileiras.html/07896496972500",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:36:25.032Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.maeterra.com.br/p/remix-cacau.html/07896496972609",
+      "error": "request to https://www.maeterra.com.br/p/remix-cacau.html/07896496972609 failed, reason: Socket timeout",
+      "checkedAt": "2026-03-12T16:36:28.955Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.maeterra.com.br/p/remix-sementes.html/07896496972623",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:36:24.679Z"
+    },
+    {
+      "type": "error",
+      "url": "https://www.maeterra.com.br/p/mini-cookies-cacau-e-castanhas.html/07896496980857",
+      "error": "HTTP Error: 404 Not Found",
+      "checkedAt": "2026-03-12T16:36:25.027Z"
+    }
+  ]
+}
