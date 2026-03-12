@@ -8,56 +8,20 @@ permissions:
 
 jobs:
 
-# ------------------------------------------------
-# 1️⃣ Build batches from JSON
-# ------------------------------------------------
+# -----------------------------------------
+# 20 workers processing brands in parallel
+# -----------------------------------------
 
-  build-batches:
-    runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.generate.outputs.matrix }}
+  scan:
 
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Generate batches
-        id: generate
-        run: |
-
-          echo "Reading JSON..."
-
-          jq '[.data[] | {brand:.brand, code:.assortmentCode}]' productPageUrls.json > brands.json
-
-          echo "Total brands:"
-          jq length brands.json
-
-          BATCH_SIZE=15
-
-          MATRIX=$(jq -c \
-          --argjson size $BATCH_SIZE '
-          [range(0; length; $size) as $i
-            | {batch: .[$i:$i+$size]}]
-          ' brands.json)
-
-          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
-
-
-# ------------------------------------------------
-# 2️⃣ Run PDP checks in parallel batches
-# ------------------------------------------------
-
-  run-batch:
-    needs: build-batches
     runs-on: ubuntu-latest
 
     strategy:
+
       fail-fast: false
-      max-parallel: 20
+
       matrix:
-        include: ${{ fromJson(needs.build-batches.outputs.matrix) }}
+        worker: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
 
     steps:
 
@@ -71,71 +35,89 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Execute batch
+      - name: Run worker
         run: |
-
-          mkdir results
-
-          echo '${{ toJson(matrix.batch) }}' > batch.json
 
           node <<'NODE'
 
           const fs = require("fs")
           const { execSync } = require("child_process")
 
-          const batch = JSON.parse(fs.readFileSync("batch.json","utf8"))
+          const worker = Number(process.env.WORKER)
 
-          console.log("Batch size:", batch.length)
+          const data = JSON.parse(
+            fs.readFileSync("productPageUrls.json","utf8")
+          )
 
-          for (const item of batch) {
+          const brands = data.data
 
-            console.log("Checking brand:", item.brand, item.code)
+          console.log("Worker:", worker)
+
+          for (let i = worker; i < brands.length; i += 20) {
+
+            const item = brands[i]
+
+            console.log("Processing:", item.brand, item.assortmentCode)
 
             execSync(
-              `node checkPdpPages.js "${item.brand}" "${item.code}"`,
+              `node checkPdpPages.js "${item.brand}" "${item.assortmentCode}"`,
               { stdio: "inherit" }
             )
+
           }
 
           NODE
+        env:
+          WORKER: ${{ matrix.worker }}
 
-          mv *.json results/ || true
-
-      - name: Upload batch artifact
+      - name: Upload results
         uses: actions/upload-artifact@v4
         with:
-          name: batch-${{ strategy.job-index }}
-          path: results/
-          if-no-files-found: ignore
+          name: worker-${{ matrix.worker }}
+          path: "*.json"
 
 
-# ------------------------------------------------
-# 3️⃣ Merge results
-# ------------------------------------------------
+# -----------------------------------------
+# Merge results
+# -----------------------------------------
 
-  merge-results:
-    needs: run-batch
-    if: always()
+  merge:
+
+    needs: scan
     runs-on: ubuntu-latest
 
     steps:
 
       - uses: actions/checkout@v4
 
+      - name: Clean results
+        run: |
+          rm -rf results
+          mkdir results
+
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
           path: artifacts
 
-      - name: Merge JSON files
+      - name: Collect JSON files
         run: |
 
-          mkdir final
+          find artifacts -name "*.json" -exec cp {} results/ \;
 
-          find artifacts -name "*.json" -exec cp {} final/ \;
+          echo "Total JSON files:"
+          ls results | wc -l
 
-          echo "Total result files:"
-          ls final | wc -l
+      - name: Merge problematic files
+        run: |
+
+          jq -s '
+          {
+            generatedAt: now | todate,
+            problematicPages: map(.problematicPages // []) | add,
+            totalProblematicPages: (map(.problematicPages // []) | add | length)
+          }
+          ' results/*PROBLEMATIC*.json > results/pdpCheckResults_ALL_PROBLEMATIC.json
 
       - name: Commit results
         run: |
@@ -143,14 +125,11 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
 
-          mkdir -p results
-          cp final/*.json results/ || true
-
           git add results/
 
           if git diff --cached --quiet
           then
-            echo "No new changes"
+            echo "No changes"
           else
             git commit -m "PDP scan results"
             git push
